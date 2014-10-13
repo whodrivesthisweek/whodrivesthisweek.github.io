@@ -10,10 +10,7 @@
   color: #ffffff;
 }
 
-.schedule td{
+.schedule th, td{
   text-align: center;
-}
-
-.schedule th{
-  text-align: center;
+  width: 50%;
 }
