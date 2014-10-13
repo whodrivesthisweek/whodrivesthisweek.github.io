@@ -9,3 +9,11 @@
 .notice h2{
   color: #ffffff;
 }
+
+.schedule td{
+  text-align: center;
+}
+
+.schedul th{
+  text-align: center;
+}
