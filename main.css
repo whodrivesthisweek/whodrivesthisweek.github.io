@@ -4,11 +4,11 @@
 
 .notice {
   background-color: #ff5555;
-  padding: 2px;
 }
 
-.notice h4{
+.notice p{
   color: #ffffff;
+  padding: 2px;
 }
 
 .schedule th, td{
