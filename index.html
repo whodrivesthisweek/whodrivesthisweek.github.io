@@ -4,7 +4,6 @@
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <script type="text/javascript" src="jquery.bracket.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   </head>
@@ -119,6 +118,29 @@
     <div class="remarks container">
       <p></p>
     </div>
+  
+  <!-- Test CSV to HTML Table -->
+  <p>A table should be below here.</p>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script type="text/javascript"charset="utf-8">
+      d3.text("data.csv", function(data) {
+          var parsedCSV = d3.csv.parseRows(data);
+
+          var container = d3.select("body")
+              .append("table")
+
+              .selectAll("tr")
+                  .data(parsedCSV).enter()
+                  .append("tr")
+
+              .selectAll("td")
+                  .data(function(d) { return d; }).enter()
+                  .append("td")
+                  .text(function(d) { return d; });
+      });
+  </script>
+  <p>A table should be above here.</p>
+  
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="app.js"></script>  
