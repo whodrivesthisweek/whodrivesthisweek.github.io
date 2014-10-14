@@ -121,13 +121,14 @@
   
   <!-- Test CSV to HTML Table -->
   <p>A table should be below here.</p>
+  <div>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script type="text/javascript"charset="utf-8">
       d3.text("data.csv", function(data) {
           var parsedCSV = d3.csv.parseRows(data);
 
           var container = d3.select("body")
-              .append("table")
+              .append("table").attr('table', 'table-striped', 'table-condensed', 'schedule')
 
               .selectAll("tr")
                   .data(parsedCSV).enter()
@@ -139,6 +140,7 @@
                   .text(function(d) { return d; });
       });
   </script>
+  </div>
   <p>A table should be above here.</p>
   
   
