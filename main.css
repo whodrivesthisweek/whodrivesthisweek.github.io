@@ -16,18 +16,6 @@ body {
   padding: 2px;
 }
 
-/* Added from HERE */
-.schedule th {
-   font-size: 34px;
-   font-weight: lighter;
-}
-
-.schedule td {
-   font-size: 28px;
-   font-weight: normal;
-}
-/* to HERE */
-
 .schedule th, td{
   text-align: center;
   width: 50%;
