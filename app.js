@@ -20,10 +20,10 @@ var main = function() {
   };
   
   for (var weekno in schedule) {
-    console.log('checking ' + weekno + ', dates have to be within the ' + schedule[weekno] + 'range');
+    //console.log('checking ' + weekno + ', dates have to be within the ' + schedule[weekno] + 'range');
     //console.log(Date.parse(schedule[weekno]));
     if (today >= Date.parse(schedule[weekno][0]) && today <= Date.parse(schedule[weekno][1])) {
-      console.log(weekno + ' is the current week!');
+      //console.log(weekno + ' is the current week!');
       document.getElementById(weekno).classList.add('info');
     };
   };
