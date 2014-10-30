@@ -23,9 +23,6 @@ var main = function() {
     // Highlight row if today falls between days
     if (today >= Date.parse(schedule[weekno][0]) && today <= Date.parse(schedule[weekno][1])) {
       document.getElementById(weekno).classList.add('info');
-    // Hide row if today is past days
-    } elseif (today > Date.parse(schedule[weekno][1])) {
-      document.getElementById(weekno).classList.add('hidden');
     };
   };
 };
