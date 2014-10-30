@@ -20,11 +20,12 @@ var main = function() {
   };
   
   for (var weekno in schedule) {
-    //console.log('checking ' + weekno + ', dates have to be within the ' + schedule[weekno] + 'range');
-    //console.log(Date.parse(schedule[weekno]));
+    // Highlight row if today falls between days
     if (today >= Date.parse(schedule[weekno][0]) && today <= Date.parse(schedule[weekno][1])) {
-      //console.log(weekno + ' is the current week!');
       document.getElementById(weekno).classList.add('info');
+    // Hide row if today is past days
+    }; elseif (today > Date.parse(schedule[weekno][1])) {
+      document.getElementById(weekno).classList.add('hidden');
     };
   };
 };
