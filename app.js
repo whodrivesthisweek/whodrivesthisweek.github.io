@@ -6,7 +6,7 @@ var main = function() {
   var schedule = {
     'wk42' : ['October 13 2014', 'October 19 2014'],
     'wk43' : ['October 20 2014', 'October 26 2014'],
-    'wk44' : ['October 27 2014', 'November 2 2014'],
+    'wk44' : ['October 27 2014', 'November 3 2014'],
     'wk45' : ['November 3 2014', 'November 9 2014'],
     'wk46' : ['November 10 2014', 'November 16 2014'],
     'wk47' : ['November 17 2014', 'November 23 2014'],
