@@ -16,6 +16,15 @@ body {
   padding: 2px;
 }
 
+.title {
+   background-color: #ff3c3c;
+}
+
+.title h1{
+   color: #ffffff;
+   padding: 2px;
+}
+
 .schedule th, td{
   text-align: center;
   width: 50%;
