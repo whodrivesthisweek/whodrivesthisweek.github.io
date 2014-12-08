@@ -8,7 +8,10 @@ body {
 }
 
 .title {
-   background-color: #FF6600;
+   border: 0;
+   top: 0;
+   height: 50px;
+   background: #FF6600;
 }
 
 .title h1 {
