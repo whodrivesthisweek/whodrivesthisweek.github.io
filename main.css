@@ -8,11 +8,11 @@ body {
 }
 
 .notice {
-  background-color: #ff5555;
+  background-color: #FF6600;
 }
 
 .notice p{
-  color: #ffffff;
+  color: #33333;
   padding: 2px;
 }
 
