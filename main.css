@@ -10,7 +10,7 @@ body {
 .title {
    position: relative;
    border: 0;
-   top: 0;
+   top: -17px;
    height: 100%;
    background: #FF6600;
 }
