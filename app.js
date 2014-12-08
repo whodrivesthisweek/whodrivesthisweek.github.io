@@ -4,16 +4,14 @@ var main = function() {
   
   // Driving Schedule
   var schedule = {
-    'wk45' : ['November 3 2014', 'November 8 2014'],
-    'wk46' : ['November 10 2014', 'November 16 2014'],
-    'wk47' : ['November 17 2014', 'November 23 2014'],
-    'wk48' : ['November 23 2014', 'November 30 2014'],
-    'wk49' : ['November 30 2014', 'December 8 2014'],
-    'wk50' : ['December 8 2014', 'December 14 2014'],
-    'wk51' : ['December 14 2014', 'December 21 2014'],
-    'wk52' : ['December 21 2014', 'December 28 2014'],
-    'wk1' : ['December 28 2014', 'January 4 2015'],
-    'wk2' : ['January 4 2015', 'January 11 2015'],
+    'wk50' : ['December 6 2014', 'December 13 2014'],
+    'wk51' : ['December 13 2014', 'December 20 2014'],
+    'wk52' : ['December 20 2014', 'December 27 2014'],
+    'wk1' : ['December 27 2014', 'January 4 2015'],
+    'wk2' : ['January 3 2015', 'January 10 2015'],
+    'wk3' : ['January 10 2015', 'January 17 2015'],
+    'wk4' : ['January 17 2015', 'January 24 2015'],
+    'wk5' : ['January 24 2015', 'January 31 2015']
   };
   
   for (var weekno in schedule) {
