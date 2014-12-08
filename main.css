@@ -7,12 +7,20 @@ body {
   
 }
 
+.title {
+   background-color: #FF66000;
+}
+
+.title h1 {
+   color: #333333;
+}
+
 .notice {
-  background-color: #FF6600;
+  background-color: #FF9900;
 }
 
 .notice p{
-  color: #33333;
+  color: #CCCCCC;
   padding: 2px;
 }
 
