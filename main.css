@@ -15,6 +15,7 @@ body {
    top: 0;
    height: 100%;
    background: #FF6600;
+   padding-top: 10px;
 }
 
 .title h1 {
