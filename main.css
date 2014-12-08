@@ -8,6 +8,7 @@ body {
 }
 
 .title {
+   position: relative;
    border: 0;
    top: 0;
    height: 50px;
@@ -23,7 +24,7 @@ body {
 }
 
 .notice p{
-  color: #CCCCCC;
+  color: #ffffff;
   padding: 2px;
 }
 
