@@ -29,8 +29,12 @@ body {
    position: absolute;
    top 0;
    left: -300px;
-   background: #428bca;
+   background: #CCCCCC;
    padding: 15px;
+}
+
+#site-menu p {
+   color: #ffffff;
 }
 
 #site-wrapper.show-nav #site-canvas {
