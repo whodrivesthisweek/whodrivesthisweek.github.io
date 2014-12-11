@@ -9,6 +9,7 @@ body {
    position: relative;
    overflow: hidden;
    width: 100%;
+   margin: 0 auto;
 }
 
 #site-canvas {
@@ -19,8 +20,6 @@ body {
    transform: translateX(0);
    -webkit-transition: .3s ease all;
    transition: .3s ease all;
-   
-   padding: 5% 0;
 }
 
 #site-menu {
