@@ -37,8 +37,8 @@ body {
 }
 
 #site-wrapper.show-nav #site-canvas {
-   -webkit-transform: translateX(300px);
-   transform: translateX(300px);
+   -webkit-transform: translateX(150px);
+   transform: translateX(150px);
 }
 
 .table {
