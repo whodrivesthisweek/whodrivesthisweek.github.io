@@ -9,6 +9,11 @@ body {
    margin: 0px;
 }
 
+.brand {
+   margin: 0;
+   float: none;
+}
+
 .table {
   
 }
