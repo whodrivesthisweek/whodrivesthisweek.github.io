@@ -10,8 +10,11 @@ body {
 }
 
 .brand {
-   margin-left: auto;
-   margin-right: auto;
+   position: absolute;
+   width: 100%;
+   left: 0;
+   text-align: center;
+   margin: auto;
 }
 
 .table {
