@@ -39,6 +39,11 @@ $('.show-comments').on('click', function(){
           $(this).fadeOut();
     });
 
+$('.dropdown-toggle').click(function() {
+        $('.dropdown-menu').toggle();
+    });
+};
+
 $(function() {
   $('.toggle-nav').click(function() {
     // Calling a function in case you want to expand upon this.
