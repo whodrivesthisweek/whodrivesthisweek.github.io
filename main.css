@@ -10,11 +10,7 @@ body {
 }
 
 .brand {
-   display: inline-block;
-   left: 0;
-   right: 0;
-   margin:0;
-   float:none;
+
 }
 
 .table {
