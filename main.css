@@ -27,7 +27,7 @@ body {
    height: 100%;
    position: absolute;
    top 0;
-   left: -200px;
+   left: -300px;
    background: #ffffff;
    padding: 15px;
 }
@@ -37,8 +37,8 @@ body {
 }
 
 #site-wrapper.show-nav #site-canvas {
-   -webkit-transform: translateX(200px);
-   transform: translateX(200px);
+   -webkit-transform: translateX(300px);
+   transform: translateX(300px);
 }
 
 .table {
