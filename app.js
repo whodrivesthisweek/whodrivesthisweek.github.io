@@ -19,7 +19,7 @@ var main = function() {
       //console.log(Date.parse(schedule[weekno]));
       if (today >= Date.parse(schedule[weekno][0]) && today <= Date.parse(schedule[weekno][1])) {
         //console.log(weekno + ' is the current week!');
-        document.getElementById(weekno).classList.add('success');
+        document.getElementById(weekno).classList.add('info');
       };
     };
   };
