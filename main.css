@@ -17,18 +17,6 @@ body {
   
 }
 
-.title {
-   position: relative;
-   border: 0;
-   top: 0;
-   height: 100%;
-   padding-top: 1px;
-}
-
-.title h3 {
-   color: #ffffff;
-}
-
 .notice {
 
 }
