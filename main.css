@@ -22,7 +22,6 @@ body {
    border: 0;
    top: 0;
    height: 100%;
-   background: #009688;
    padding-top: 1px;
 }
 
@@ -31,11 +30,10 @@ body {
 }
 
 .notice {
-  background-color: #b2dfdb;
+
 }
 
 .notice p{
-  color: #000000;
   padding: 2px;
 }
 
