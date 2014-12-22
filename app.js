@@ -53,8 +53,4 @@ $(function() {
 
 $.material.init()
 
-$.material.options = {
-    "withRipples": ".btn, .withripple",
-}
-
 $(document).ready(main);
