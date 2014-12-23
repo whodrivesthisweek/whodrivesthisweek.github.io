@@ -52,7 +52,7 @@ body {
 
 @media (min-width:1200px) {
    holiday::before {
-      background-image:url(https://cloud.githubusercontent.com/assets/9142339/5539111/1b8fa2be-8a83-11e4-89ee-b569d530fb52.png),url(https://www.google.com/images/holiday/x_d_northpole_animated.gif);
+      background-image:url(https://cloud.githubusercontent.com/assets/9142339/5539111/1b8fa2be-8a83-11e4-89ee-b569d530fb52.png),url(https://www.google.com/images/holiday/x_d_star_animated.gif);
       background-color:transparent;
       background-repeat:no-repeat;
       background-position:left bottom,263px top;
