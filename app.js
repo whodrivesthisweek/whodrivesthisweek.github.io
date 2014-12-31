@@ -1,6 +1,8 @@
 var main = function() {
   // Get today's date
   var today = new Date();
+  today = Date.parse(today);
+  
   
   // Driving Schedule
   var schedule = {
