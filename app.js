@@ -26,6 +26,7 @@ var main = function() {
     };
   };
 
+/*
 // Load Disqus Comments on click
 $('.show-comments').on('click', function(){
           var disqus_shortname = 'whodrivesthisweek'; // Replace this value with *your* username.
@@ -39,6 +40,7 @@ $('.show-comments').on('click', function(){
           // hide the button once comments load
           $(this).fadeOut();
     });
+*/
 
 $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
