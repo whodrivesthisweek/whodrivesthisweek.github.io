@@ -37,7 +37,7 @@ body {
 .dark-primary-color    { background: #1976D2; }
 .default-primary-color, .panel .panel-heading { background: #2196F3; }
 .light-primary-color   { background: #BBDEFB; }
-.text-primary-color, .panel-heading h3   { color: #FFFFFF; }
+.text-primary-color, .panel-heading h3, .fa-bars   { color: #FFFFFF; }
 .accent-color          { background: #FFC107; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }

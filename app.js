@@ -1,4 +1,4 @@
-var main = function() {
+var main = function () {
   // Get today's date
   var today = new Date();
   today = Date.parse(today);
@@ -19,6 +19,7 @@ var main = function() {
   for (var weekno in schedule) {
       //console.log('checking ' + weekno + ', dates have to be within the ' + schedule[weekno] + 'range');
       //console.log(Date.parse(schedule[weekno]));
+
       if (today >= Date.parse(schedule[weekno][0]) && today <= Date.parse(schedule[weekno][1])) {
         //console.log(weekno + ' is the current week!');
         document.getElementById(weekno).classList.add('light-primary-color');
@@ -42,6 +43,8 @@ $('.show-comments').on('click', function(){
     });
 */
 
+$(document).ready(main);
+
 $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
     });
@@ -53,5 +56,3 @@ $(function() {
     toggleNav();
   });
 });
-
-$(document).ready(main);
