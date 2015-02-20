@@ -13,10 +13,6 @@ body {
   padding: 2px;
 }
 
-.jumbotron {
-   background: url('https://pbs.twimg.com/media/B-Kgsc5CMAAtMwD.png') no-repeat center center fixed;
-}
-
 .schedule th, td{
   text-align: center;
   width: 50%;
