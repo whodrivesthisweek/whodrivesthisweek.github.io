@@ -9,8 +9,12 @@ body {
    margin: 0px;
 }
 
-.notice p, h2{
+.notice p {
   padding: 2px;
+}
+
+.notice h3 {
+   padding: 2px;
 }
 
 .schedule th, td{
