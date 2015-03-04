@@ -10,10 +10,12 @@ body {
 }
 
 .notice p {
+  margin: 0px;
   padding: 2px;
 }
 
 .notice h3 {
+   margin: 0px;
    padding: 2px;
 }
 
