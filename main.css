@@ -9,7 +9,7 @@ body {
    margin: 0px;
 }
 
-.notice p{
+.notice p, h2{
   padding: 2px;
 }
 
