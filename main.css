@@ -27,6 +27,10 @@ body {
    padding: 2px;
 }
 
+blockquote {
+    border-left: none;
+}
+
 .schedule th, td{
   text-align: center;
   width: 50%;
