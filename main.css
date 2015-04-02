@@ -6,6 +6,10 @@ body {
    padding-top: 50px;
 }
 
+.navbar.navbar, .navbar-default.navbar {
+   background: #2196F3;
+}
+
 .navbar {
    margin: 0px;
 }
