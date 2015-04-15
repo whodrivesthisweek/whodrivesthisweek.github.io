@@ -21,6 +21,10 @@ body {
     padding-top: 0;
 }
 
+.notice a {
+    color: #2196f3;
+}
+
 .notice p {
   margin: 0px;
   padding: 2px;
