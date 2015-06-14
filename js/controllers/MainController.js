@@ -1,3 +1,4 @@
+// Standard Rotation: CONDOR, SNAKE, GIMLI, LENNI/CARLOS
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
