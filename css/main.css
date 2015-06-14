@@ -40,10 +40,6 @@ a.navbar-brand {
    padding: 2px;
 }
 
-blockquote {
-    border-left: none;
-}
-
 .schedule th, td{
   text-align: center;
   width: 50%;
@@ -52,6 +48,14 @@ blockquote {
 .spacer {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.list-header {
+    padding-left: 22px;
+}
+
+p.list-header {
+    color: #999;
 }
 
 .test-schedule {
