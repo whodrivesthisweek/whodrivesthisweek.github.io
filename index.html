@@ -9,9 +9,11 @@
     <!-- Material Design -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css">
-    <!-- Font Awesome Icons -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    
+      <!-- Angular.js -->
+  <script src="js/shared/angular.min.js"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
     <!-- Favicons -->
@@ -34,7 +36,7 @@
     
   </head>
   
-  <body>
+  <body ng-app="DriveApp">
 
     <!-- Top Bar -->
     <div class="navbar navbar-default default-primary-color navbar-fixed-top">
@@ -51,114 +53,48 @@
     </div>
     
     <!-- Schedule -->
-    <div class="container spacer">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel">
-            <div class="panel-body">
-              <table class="table table-condensed table-striped schedule">
-              <thead>
-                <tr>
-                  <th>Week Of</th>
-                  <th>Driver</th>
-                </tr>
-              </thead>
-              <tbody>
-                <!-- Standard Rotation: CONDOR, SNAKE, GIMLI, LENNI/CARLOS -->
-                <tr id="wk25">
-                  <td>6/15/2015</td>
-                  <td>LENNI / CARLOS</td>
-                </tr>
-                <tr id="wk26">
-                  <td>6/22/2015</td>
-                  <td>CONDOR</td>
-                </tr>
-                <tr id="wk27">
-                  <td>6/29/2015</td>
-                  <td>SNAKE</td>
-                </tr>
-                <tr id="wk28">
-                  <td>7/06/2015</td>
-                  <td>GIMLI</td>
-                </tr>
-                <tr id="wk29">
-                  <td>7/13/2015</td>
-                  <td>LENNI / CARLOS</td>
-                </tr>
-                <tr id="wk30">
-                  <td>7/20/2015</td>
-                  <td>CONDOR</td>
-                </tr>
-                <tr id="wk31">
-                  <td>7/27/2015</td>
-                  <td>SNAKE</td>
-                </tr>
-                <tr id="wk32">
-                  <td>8/03/2015</td>
-                  <td>GIMLI</td>
-                </tr>
-                <tr id="wk33">
-                  <td>8/10/2015</td>
-                  <td>LENNI / CARLOS</td>
-                </tr>
-                <tr id="wk34">
-                  <td>8/17/2015</td>
-                  <td>CONDOR</td>
-                </tr>
-                <tr id="wk35">
-                  <td>8/24/2015</td>
-                  <td>SNAKE</td>
-                </tr>
-                <tr id="wk36">
-                  <td>8/31/2015</td>
-                  <td>GIMLI</td>
-                </tr>
-              </tbody>
-            </table>
+    <div class="main" ng-controller="MainController">
+      <div class="container spacer">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel">
+              <div class="panel-body">
+                <table class="table table-condensed table-striped schedule">
+                <thead>
+                  <tr>
+                    <th>Week Of</th>
+                    <th>Driver</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Standard Rotation: CONDOR, SNAKE, GIMLI, LENNI/CARLOS -->
+                  <tr ng-repeat="week in schedule">
+                    <td>{{ week.drvDate | date:'MM/dd/y' }}</td>
+                    <td>{{ week.drvName }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="panel">
-            <div class="panel-body">
-              <table class="table table-condensed table-striped schedule">
-              <thead>
-                <tr>
-                  <th>Date</th>
-                  <th>Holiday</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>7/03/2015</td>
-                  <td>Independence Day (Observed)</td>
-                </tr>
-                <tr>
-                  <td>9/07/2015</td>
-                  <td>Labor Day</td>
-                </tr>
-                <tr>
-                  <td>11/25/2015</td>
-                  <td>Thanksgiving Day</td>
-                </tr>
-                <tr>
-                  <td>11/26/2015</td>
-                  <td>Day After Thanksgiving</td>
-                </tr>
-                <tr>
-                  <td>12/24/2015</td>
-                  <td>Christmas Eve</td>
-                </tr>
-                <tr>
-                  <td>12/25/2015</td>
-                  <td>Christmas Day</td>
-                </tr>
-                <tr>
-                  <td>12/31/2015</td>
-                  <td>New Year's Eve</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="col-md-6">
+            <div class="panel">
+              <div class="panel-body">
+                <table class="table table-condensed table-striped schedule">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Holiday</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr ng-repeat="holiday in holidays">
+                    <td>{{ holiday.holDate | date:'MM/dd/y' }}</td>
+                    <td>{{ holiday.holName }}</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
             </div>
           </div>
         </div>
@@ -179,9 +115,14 @@
   <!-- Material Design -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
-  <!-- Angular.js -->
-  <script src="js/shared/angular.min.js"></script>
+
+  <!-- Modules -->
   <script src="js/app.js"></script>
+  
+  <!-- Controllers -->
+  <script src="js/controllers/MainController.js"></script>
+    
+    
   <script>$.material.init();</script>
       
   </body>
