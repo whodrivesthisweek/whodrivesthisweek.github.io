@@ -6,11 +6,11 @@ app.controller('MainController', ['$scope', function($scope) {
       day: new Date('2015', '07', '03')
     },
     {
-      name: 'LENNI / CARLOS',
+      name: 'LENNI',
       day: new Date('2015', '07', '10')
     },
     {
-      name: 'CONDOR',
+      name: 'CARLOS',
       day: new Date('2015', '07', '17')
     },
     {
