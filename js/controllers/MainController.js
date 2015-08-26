@@ -2,24 +2,20 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
-      name: 'GIMLI',
-      day: new Date('2015', '07', '03')
-    },
-    {
-      name: 'LENNI',
-      day: new Date('2015', '07', '10')
-    },
-    {
-      name: 'CARLOS',
-      day: new Date('2015', '07', '17')
-    },
-    {
       name: 'SNAKE',
       day: new Date('2015', '07', '24')
     },
     {
       name: 'GIMLI',
       day: new Date('2015', '07', '31')
+    },
+    {
+      name: 'CARLOS',
+      day: new Date('2015','08','7')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2015','08','15')
     }
   ]
   $scope.holidays = [
