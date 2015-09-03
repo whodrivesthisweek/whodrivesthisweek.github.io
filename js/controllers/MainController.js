@@ -14,8 +14,16 @@ app.controller('MainController', ['$scope', function($scope) {
       day: new Date('2015','08','7')
     },
     {
-      name: 'SNAKE',
+      name: 'CONDOR',
       day: new Date('2015','08','15')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2015','08','22')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2015','08','29')
     }
   ]
   $scope.holidays = [
