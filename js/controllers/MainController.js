@@ -15,22 +15,18 @@ app.controller('MainController', ['$scope', function($scope) {
     },
     {
       name: 'CONDOR',
-      day: new Date('2015','08','15')
+      day: new Date('2015','08','14')
     },
     {
       name: 'SNAKE',
-      day: new Date('2015','08','22')
+      day: new Date('2015','08','21')
     },
     {
-      name: 'GIMLI',
-      day: new Date('2015','08','29')
+      name: 'GIMLI?',
+      day: new Date('2015','08','28')
     }
   ]
   $scope.holidays = [
-    {
-      name: 'Labor Day',
-      day: new Date('2015', '08', '07'),
-    },
     {
       name: 'Thanksgiving Day',
       day: new Date('2015', '10', '25'),
