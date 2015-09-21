@@ -3,27 +3,67 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
       name: 'SNAKE',
-      day: new Date('2015', '07', '24')
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2015', '07', '31')
-    },
-    {
-      name: 'CARLOS',
-      day: new Date('2015','08','7')
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2015','08','14')
-    },
-    {
-      name: 'SNAKE',
       day: new Date('2015','08','21')
     },
     {
       name: 'GIMLI?',
       day: new Date('2015','08','28')
+    },
+    {
+      name: 'CARLOS',
+      day: new Date('2015','09','5')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2015','09','12')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2015','09','19')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2015','09','26')
+    },
+    {
+      name: 'CARLOS',
+      day: new Date('2015','10','2')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2015','10','9')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2015','10','16')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2015','10','23')
+    },
+    {
+      name: 'CARLOS',
+      day: new Date('2015','10','30')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2015','11','7')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2015','11','14')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2015','11','21')
+    },
+    {
+      name: '',
+      day: new Date('2015','11','28')
+    },
+    {
+      name: 'CARLOS',
+      day: new Date('2016','0','4')
     }
   ]
   $scope.holidays = [
