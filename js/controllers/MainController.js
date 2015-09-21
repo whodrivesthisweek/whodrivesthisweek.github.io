@@ -88,6 +88,12 @@ app.controller('MainController', ['$scope', function($scope) {
       day: new Date('2015', '11', '31')
     }
   ]
+  $scope.month = [
+    { 
+      currmonth: 'September',
+      curryear: '2015'
+    }
+  ]
   $scope.calendar = [
     {
       sun: '',
