@@ -69,23 +69,34 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.holidays = [
     {
       name: 'Thanksgiving Day',
-      day: new Date('2015', '10', '25'),
+      day: new Date('2015', '10', '25')
     },
     {
       name: 'Day After Thanksgiving',
-      day: new Date('2015', '10', '26'),
+      day: new Date('2015', '10', '26')
     },
     {
       name: 'Christmas Eve',
-      day: new Date('2015', '11', '24'),
+      day: new Date('2015', '11', '24')
     },
     {
       name: 'Christmas Day',
-      day: new Date('2015', '11', '25'),
+      day: new Date('2015', '11', '25')
     },
     {
       name: "New Year's Eve",
-      day: new Date('2015', '11', '31'),
+      day: new Date('2015', '11', '31')
+    }
+  ]
+  $scope.calendar = [
+    {
+      sun: '',
+      mon: '',
+      tue: '1',
+      wed: '2',
+      thu: '3',
+      fri: '4',
+      sat: '5'
     }
   ]
 }]);
