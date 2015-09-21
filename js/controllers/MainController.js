@@ -90,7 +90,7 @@ app.controller('MainController', ['$scope', function($scope) {
   ]
   $scope.calendar = [
     {
-      sun: ,
+      son: ,
       mon: ,
       tue: 1,
       wed: 2,
@@ -99,7 +99,7 @@ app.controller('MainController', ['$scope', function($scope) {
       sat: 5,
     },
     {
-      sun: 6,
+      son: 6,
       mon: 7,
       tue: 8,
       wed: 9,
@@ -108,7 +108,7 @@ app.controller('MainController', ['$scope', function($scope) {
       sat: 12,
     },
     {
-      sun: 13,
+      son: 13,
       mon: 14,
       tue: 15,
       wed: 16,
@@ -117,7 +117,7 @@ app.controller('MainController', ['$scope', function($scope) {
       sat: 19,
     }
     {
-      sun: 20,
+      son: 20,
       mon: 21,
       tue: 22,
       wed: 23,
@@ -126,7 +126,7 @@ app.controller('MainController', ['$scope', function($scope) {
       sat: 26,
     },
     {
-      sun: 27,
+      son: 27,
       mon: 28,
       tue: 29,
       wed: 30,
