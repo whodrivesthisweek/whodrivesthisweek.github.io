@@ -141,50 +141,14 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td class="text-center"></td>
-                        <td class="text-center"></td>
-                        <td class="text-center">1</td>
-                        <td class="text-center">2</td>
-                        <td class="text-center">3</td>
-                        <td class="text-center">4</td>
-                        <td class="text-center">5</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center">6</td>
-                        <td class="text-center"><span class="badge">7</span></td>
-                        <td class="text-center">8</td>
-                        <td class="text-center">9</td>
-                        <td class="text-center">10</td>
-                        <td class="text-center">11</td>
-                        <td class="text-center">12</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center">13</td>
-                        <td class="text-center">14</td>
-                        <td class="text-center">15</td>
-                        <td class="text-center">16</td>
-                        <td class="text-center">17</td>
-                        <td class="text-center">18</td>
-                        <td class="text-center">19</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center">20</td>
-                        <td class="text-center">21</td>
-                        <td class="text-center">22</td>
-                        <td class="text-center">23</td>
-                        <td class="text-center">24</td>
-                        <td class="text-center">25</td>
-                        <td class="text-center">26</td>
-                      </tr>
-                      <tr>
-                        <td class="text-center">27</td>
-                        <td class="text-center">28</td>
-                        <td class="text-center">29</td>
-                        <td class="text-center">30</td>
-                        <td class="text-center"></td>
-                        <td class="text-center"></td>
-                        <td class="text-center"></td>
+                      <tr ng-repeat="cal in calendar">
+                        <td class="text-center">{{ cal.sun }}</td>
+                        <td class="text-center">{{ cal.mon }}</td>
+                        <td class="text-center">{{ cal.tue }}</td>
+                        <td class="text-center">{{ cal.wed }}</td>
+                        <td class="text-center">{{ cal.thu }}</td>
+                        <td class="text-center">{{ cal.fri }}</td>
+                        <td class="text-center">{{ cal.sat }}</td>
                       </tr>
                     </tbody>
                   </table>
