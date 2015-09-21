@@ -6,7 +6,7 @@ app.controller('MainController', ['$scope', function($scope) {
       day: new Date('2015','08','21')
     },
     {
-      name: 'GIMLI?',
+      name: 'GIMLI',
       day: new Date('2015','08','28')
     },
     {
