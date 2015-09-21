@@ -90,7 +90,7 @@ app.controller('MainController', ['$scope', function($scope) {
   ]
   $scope.month = [
     { 
-      currmonth: 'September',
+      currmonth: 'SEPTEMBER',
       curryear: '2015'
     }
   ]
