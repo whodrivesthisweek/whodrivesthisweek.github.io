@@ -90,7 +90,7 @@ app.controller('MainController', ['$scope', function($scope) {
   ]
   $scope.month = [
     { 
-      currmonth: 'SEPTEMBER',
+      currmonth: 'OCTOBER',
       curryear: '2015'
     }
   ]
@@ -98,47 +98,47 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       sun: '',
       mon: '',
-      tue: '1',
-      wed: '2',
-      thu: '3',
-      fri: '4',
-      sat: '5'
+      tue: '',
+      wed: '',
+      thu: '1',
+      fri: '2',
+      sat: '3'
     },
     {
-      sun: '6',
-      mon: '7',
-      tue: '8',
-      wed: '9',
-      thu: '10',
-      fri: '11',
-      sat: '12'
+      sun: '4',
+      mon: '5',
+      tue: '6',
+      wed: '7',
+      thu: '8',
+      fri: '9',
+      sat: '10'
     },
     {
-      sun: '13',
-      mon: '14',
-      tue: '15',
-      wed: '16',
-      thu: '17',
-      fri: '18',
-      sat: '19'
+      sun: '11',
+      mon: '12',
+      tue: '13',
+      wed: '14',
+      thu: '15',
+      fri: '16',
+      sat: '17'
     },
     {
-      sun: '20',
-      mon: '21',
-      tue: '22',
-      wed: '23',
-      thu: '24',
-      fri: '25',
-      sat: '26'
+      sun: '18',
+      mon: '19',
+      tue: '20',
+      wed: '21',
+      thu: '22',
+      fri: '23',
+      sat: '24'
     },
     {
-      sun: '27',
-      mon: '28',
-      tue: '29',
-      wed: '30',
-      thu: '',
-      fri: '',
-      sat: ''
+      sun: '25',
+      mon: '26',
+      tue: '27',
+      wed: '28',
+      thu: '29',
+      fri: '30',
+      sat: '31'
     }
   ]
 }]);
