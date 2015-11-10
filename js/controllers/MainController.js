@@ -22,11 +22,11 @@ app.controller('MainController', ['$scope', function($scope) {
       day: new Date('2015','10','30')
     },
     {
-      name: 'CONDOR',
+      name: 'SNAKE',
       day: new Date('2015','11','7')
     },
     {
-      name: 'SNAKE',
+      name: 'CONDOR',
       day: new Date('2015','11','14')
     },
     {
