@@ -75,7 +75,6 @@ p.list-header {
 }
 
 .btn-hotline {
-   background: #bebebe !important;
    color: #fff !important;
    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
 }
@@ -91,7 +90,7 @@ p.list-header {
 .default-primary-color, .navbar.navbar, .navbar-default.navbar { background: #4CAF50; }
 .light-primary-color, .panel .panel-heading   { background: #ff9900; }
 .text-primary-color, .panel-heading h3, .fa-bars   { color: #FFFFFF; }
-.accent-color          { background: #F44336; }
+.accent-color, .btn-hotline          { background: #F44336 !important; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
