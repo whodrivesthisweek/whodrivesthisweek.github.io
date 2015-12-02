@@ -3,22 +3,6 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
       name: 'CARLOS',
-      day: new Date('2015','10','2')
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2015','10','9')
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2015','10','16')
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2015','10','23')
-    },
-    {
-      name: 'CARLOS',
       day: new Date('2015','10','30')
     },
     {
