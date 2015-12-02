@@ -26,6 +26,10 @@ a.navbar-brand {
     font-size: 1.5em;
 }
 
+.navbar-brand i {
+   padding-bottom: 3px;
+}
+
 .notice a {
     color: #2196f3;
 }
