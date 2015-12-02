@@ -28,14 +28,6 @@ app.controller('MainController', ['$scope', function($scope) {
   ]
   $scope.holidays = [
     {
-      name: 'Thanksgiving Day',
-      day: new Date('2015', '10', '25')
-    },
-    {
-      name: 'Day After Thanksgiving',
-      day: new Date('2015', '10', '26')
-    },
-    {
       name: 'Christmas Eve',
       day: new Date('2015', '11', '24')
     },
