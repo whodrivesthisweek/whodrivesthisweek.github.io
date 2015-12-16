@@ -61,38 +61,45 @@
           
           <div class="col-md-6">
             <p class="list-header">Schedule</p>
-            <table class="table test-schedule">
-              <thead>
-                <tr>
-                  <th class="text-center">Week of</th>
-                  <th class="text-center">Driver</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="week in schedule">
-                  <td>{{ week.day | date:'MM/dd/y' }}</td>
-                  <td>{{ week.name }}</td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <table class="table test-schedule">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Week of</th>
+                      <th class="text-center">Driver</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="week in schedule">
+                      <td>{{ week.day | date:'MM/dd/y' }}</td>
+                      <td>{{ week.name }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
           
           <div class="col-md-6">
             <p class="list-header">Holidays</p>
-            <table class="table test-schedule">
-              <thead>
-                <tr>
-                  <th class="text-center">Date</th>
-                  <th class="text-center">Holiday</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="holiday in holidays">
-                  <td>{{ holiday.day | date:'MM/dd/y' }}</td>
-                  <td>{{ holiday.name }}</td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="panel panel-default">
+              <div class="panel body">
+                <table class="table test-schedule">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Date</th>
+                      <th class="text-center">Holiday</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr ng-repeat="holiday in holidays">
+                      <td>{{ holiday.day | date:'MM/dd/y' }}</td>
+                      <td>{{ holiday.name }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
           </div>
           
           <div class="col-md-6">
