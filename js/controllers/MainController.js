@@ -2,38 +2,94 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
+      name: 'SNAKE',
+      day: new Date('2016','0','4')
+    },
+    {
       name: 'CONDOR',
-      day: new Date('2015','11','14')
+      day: new Date('2016','0','11')
     },
     {
       name: 'GIMLI',
-      day: new Date('2015','11','21')
-    },
-    {
-      name: '',
-      day: new Date('2015','11','28')
+      day: new Date('2016','0','18')
     },
     {
       name: 'SNAKE',
-      day: new Date('2016','0','4')
-    }
+      day: new Date('2016','0','25')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2016','1','1')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','1','8')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2016','1','15')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2016','1','22')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','1','29')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2016','2','7')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2016','2,'14')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','2','21')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2016','2','28')
+    },
   ]
   $scope.holidays = [
     {
-      name: 'Christmas Eve',
-      day: new Date('2015', '11', '24')
+      name: 'Memorial Day',
+      day: new Date('2016', '4', '30')
     },
     {
-      name: 'Christmas Day',
-      day: new Date('2015', '11', '25')
+      name: 'Independence Day',
+      day: new Date('2016', '6', '4')
     },
     {
-      name: "New Year's Eve",
-      day: new Date('2015', '11', '31')
+      name: 'Labor Day',
+      day: new Date('2016', '8', '8')
     },
     {
-      name: "New Year's Day",
-      day: new Date('2016', '0', '1')
+      name: 'Thanksgiving Day',
+      day: new Date('2016', '10', '24')
+    },
+    {
+      name: 'Day After Thanksgiving',
+      day: new Date('2016', '10', '25')
+    },
+    {
+      name: 'Christmas Eve (Observed)',
+      day: new Date('2016', '11', '23')
+    },
+    {
+      name: 'Christmas Day (Observed)',
+      day: new Date('2016', '11', '26')
+    },
+    {
+      name: "New Year's Eve (Observed)",
+      day: new Date('2016', '11', '30')
+    },
+    {
+      name: "New Year's Day (Observed)",
+      day: new Date('2017', '0', '2')
     }
   ]
   $scope.month = [
