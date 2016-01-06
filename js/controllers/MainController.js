@@ -43,7 +43,7 @@ app.controller('MainController', ['$scope', function($scope) {
     },
     {
       name: 'CONDOR',
-      day: new Date('2016','2,'14')
+      day: new Date('2016','2','14')
     },
     {
       name: 'GIMLI',
