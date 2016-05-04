@@ -20,7 +20,7 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'SNAKE',
       day: new Date('2016','4','30')
-    },,
+    },
     {
       name: 'CONDOR',
       day: new Date('2016','5','6')
