@@ -1,27 +1,7 @@
 // Standard Rotation: SNAKE, CONDOR, GIMLI
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
-    {
-      name: 'CONDOR',
-      day: new Date('2016','2','28')
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','3','4')
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2016','3','11')
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2016','3','18')
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','3','25')
-    },
-    {
+        {
       name: 'GIMLI',
       day: new Date('2016','4','2')
     },
@@ -40,6 +20,38 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'SNAKE',
       day: new Date('2016','4','30')
+    },,
+    {
+      name: 'CONDOR',
+      day: new Date('2016','5','6')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','5','13')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2016','5','20')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2016','5','27')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','6','4')
+    },
+    {
+      name: 'SNAKE',
+      day: new Date('2016','6','11')
+    },
+    {
+      name: 'CONDOR',
+      day: new Date('2016','6','18')
+    },
+    {
+      name: 'GIMLI',
+      day: new Date('2016','6','25')
     }
   ]
   $scope.holidays = [
