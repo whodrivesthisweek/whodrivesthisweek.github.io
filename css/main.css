@@ -121,13 +121,3 @@ p.list-header {
    bottom: 10px;
    right: 10px;
 }
-
-.fa-duo:before {
-   opacity: .2;
-   position: absolute;
-}
-
-.fa-car {
-   &:before { content: '\f001'; }
-   &:after { content: '\f000'; }
-}
