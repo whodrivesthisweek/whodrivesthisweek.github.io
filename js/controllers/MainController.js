@@ -1,26 +1,6 @@
 // Standard Rotation: SNAKE, CONDOR, GIMLI
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
-        {
-      name: 'GIMLI',
-      day: new Date('2016','4','2')
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2016','4','9')
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','4','16')
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2016','4','23')
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2016','4','30')
-    },
     {
       name: 'CONDOR',
       day: new Date('2016','5','6')
@@ -55,10 +35,6 @@ app.controller('MainController', ['$scope', function($scope) {
     }
   ]
   $scope.holidays = [
-    {
-      name: 'Memorial Day',
-      day: new Date('2016', '4', '30')
-    },
     {
       name: 'Independence Day',
       day: new Date('2016', '6', '4')
