@@ -2,14 +2,10 @@
 <html>
   <head>
     <title>Who Drives This Week?</title>
-    <!-- Material Design Fonts -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Twitter Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Material Design -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.1/css/bootstrap-material-design.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.1/css/ripples.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- Angular.js -->
     <script src="js/shared/angular.min.js"></script>
@@ -39,17 +35,17 @@
   <body ng-app="DriveApp">
 
     <!-- Top Bar -->
-    <div class="navbar navbar-default default-primary-color navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
             <div class="brand">
-              <a class="navbar-brand" href="javascript:void(0)"><i class="material-icons">directions_car</i> Who Drives This Week?</a>
+              <a class="navbar-brand" href="javascript:void(0)"><i class="fa fa-car"></i> WHO DRIVES THIS WEEK?</a>
             </div>
         </div>
     </div>
     
     <!-- Notices -->
-    <div class="notice light-primary-color hidden">
-      <p class="text-center secondary-text-color">CALL (202) 224-4721 FOR A GOOD TIME</p>
+    <div class="notice hidden">
+      <p class="text-center"></p>
     </div>
     
     <div class="spacer"></div>
@@ -60,10 +56,8 @@
         <div class="row">
           
           <div class="col-md-6">
-            <p class="list-header">Schedule</p>
-            <div class="panel panel-default">
-              <div class="panel body">
-                <table class="table test-schedule">
+            <p class="list-header text-center">SCHEDULE</p>
+                <table class="table table-hover test-schedule">
                   <thead>
                     <tr>
                       <th class="text-center">Week of</th>
@@ -77,15 +71,11 @@
                     </tr>
                   </tbody>
                 </table>
-              </div>
-            </div>
           </div>
           
           <div class="col-md-6">
-            <p class="list-header">Holidays</p>
-            <div class="panel panel-default">
-              <div class="panel body">
-                <table class="table test-schedule">
+            <p class="list-header text-center">HOLIDAYS</p>
+                <table class="table table-hover test-schedule">
                   <thead>
                     <tr>
                       <th class="text-center">Date</th>
@@ -99,43 +89,6 @@
                     </tr>
                   </tbody>
                 </table>
-            </div>
-          </div>
-          
-          <div class="col-md-6 hidden">
-            <p class="list-header">Calendar</p>
-            <div class="panel panel-danger">
-                <div class="panel-heading" ng-repeat="current in month">
-                  <h3 class="panel-title text-center">{{ current.currmonth }} {{ current.curryear }}</h3>
-                </div>
-              <div class="panel body">
-                <table class="table test-schedule test-calendar">
-                  <thead>
-                    <tr>
-                      <th class="text-center">S</th>
-                      <th class="text-center">M</th>
-                      <th class="text-center">T</th>
-                      <th class="text-center">W</th>
-                      <th class="text-center">T</th>
-                      <th class="text-center">F</th>
-                      <th class="text-center">S</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr ng-repeat="cal in calendar">
-                      <td class="text-center">{{ cal.sun }}</td>
-                      <td class="text-center">{{ cal.mon }}</td>
-                      <td class="text-center">{{ cal.tue }}</td>
-                      <td class="text-center">{{ cal.wed }}</td>
-                      <td class="text-center">{{ cal.thu }}</td>
-                      <td class="text-center">{{ cal.fri }}</td>
-                      <td class="text-center">{{ cal.sat }}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
         </div>
         
       </div>
@@ -144,7 +97,7 @@
     <!-- Status Hotline button -->
     <div class="hotline fab-wrapper hidden-sm hidden-md hidden-lg">
       <div class="text-center">
-        <a href="tel://1-888-405-2368" class="btn btn-fab btn-raised btn-hotline"><i class="material-icons">call</i></a>
+        <a href="tel://1-888-405-2368" class="btn btn-lg btn-fab btn-raised btn-hotline"><i class="fa fa-phone"></i></a>
       </div>
     </div>
     
@@ -152,7 +105,7 @@
       <div class="hidden-xs row">
         <div class="col-md-12">
           <div class="text-center accent-color">
-            <a href="javascript:void(0)" class="btn btn-default btn-lg btn-block btn-raised btn-hotline"><i class="material-icons">call</i> Call 1-888-405-2368 for facility status</a>
+            <a href="javascript:void(0)" class="btn  btn-lg btn-block btn-raised btn-hotline"><i class="fa fa-phone"></i> Call 1-888-405-2368 for facility status</a>
           </div>
         </div>
       </div>
@@ -162,20 +115,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Bootstrap -->
   <script src="js/shared/bootstrap.min.js"></script>
-  <!-- Material Design -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.1/js/material.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.5.1/js/ripples.min.js"></script>
-
   <!-- Modules -->
   <script src="js/app.js"></script>
-  
   <!-- Controllers -->
   <script src="js/controllers/MainController.js"></script>
-    
   <!-- Directives -->
   <script src="js/directives/listGroup.js"></script>
-    
-  <script>$.material.init();</script>
       
   </body>
 </html>
