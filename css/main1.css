@@ -1,0 +1,143 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+   margin: 0 auto;
+   height: 100%;
+   padding-top: 50px;
+}
+
+/*
+--- With Box Shadow ---
+.navbar.navbar, .navbar-default.navbar {
+   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
+   background: #0000ff;
+   font-weight: 400;
+}
+*/
+
+.navbar.navbar, .navbar-default.navbar {
+   background: 
+      -webkit-gradient(linear, right bottom, left bottom,
+      color-stop(0, rgb(80,190,190)),
+      color-stop(0.5, rgb(0,153,153)),
+      color-stop(0.83, rgb(0,153,203)),
+      color-stop(rgb(0,153,176)));
+   background: rgb(0,153,153);
+   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   font-weight: 400;
+}
+
+.navbar {
+   margin: 0px;
+}
+
+.navbar.navbar, .navbar-default.navbar, .navbar-nav li a, .navbar-header {
+    line-height: 56px;
+    height: 56px;
+    padding-top: 0;
+    color: #fff;
+}
+
+a.navbar-brand {
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    font-size: 1.5em;
+    color: #fff !important;
+}
+
+.navbar-brand i {
+   padding-bottom: 3px;
+   color: #fff;
+}
+
+.notice a {
+    color: #2196f3;
+}
+
+.notice p {
+  margin: 6px;
+  padding: 2px;
+}
+
+.notice h3 {
+   margin: 0px;
+   padding: 2px;
+}
+
+.schedule th, td{
+  text-align: center;
+}
+
+.spacer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.list-header {
+    
+}
+
+.table.table-hover tr th {
+  border-bottom: 2px solid #0000ff;
+} 
+
+.table.table-hover tr td {
+  border-bottom: 1px solid #ffffff; 
+}
+
+th {
+  font-weight: 700; 
+}
+
+tr, td {
+  color: #0000ff;
+}
+
+p.list-header {
+    font-weight: 700;
+    color: #0000ff;
+}
+
+.test-schedule {
+  background: #ffffff;
+}
+
+.hotline {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-hotline {
+   color: #fff !important;
+   background: 
+      -webkit-gradient(linear, right bottom, left bottom,
+      color-stop(0, rgb(80,190,190)),
+      color-stop(0.5, rgb(0,153,153)),
+      color-stop(0.83, rgb(0,153,203)),
+      color-stop(rgb(0,153,176)));
+   background: rgb(0,153,153);
+   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   border-radius: 100px;
+}
+
+.btn:hover {
+  background: #fff !important;
+  color: #00f !important;
+  border-color: #00f !important;
+}
+
+.btn-fab {
+   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
+}
+
+.fab-wrapper {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+}
