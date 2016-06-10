@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Who Drives This Week?</title>
+    <title>WHO DRIVES THIS WEEK?</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Twitter Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <!-- Angular.js -->
     <script src="js/shared/angular.min.js"></script>
@@ -38,7 +38,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
             <div class="brand">
-              <a class="navbar-brand" href="javascript:void(0)"><i class="fa fa-car"></i> WHO DRIVES THIS WEEK?</a>
+              <a class="navbar-brand" href="javascript:void(0)"><i class="fa fa-car" aria-hidden="true"></i> WHO DRIVES THIS WEEK</a>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
       <div class="container spacer">
         <div class="row">
           
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <p class="list-header text-center">SCHEDULE</p>
                 <table class="table table-hover test-schedule">
                   <thead>
@@ -73,7 +73,7 @@
                 </table>
           </div>
           
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6">
             <p class="list-header text-center">HOLIDAYS</p>
                 <table class="table table-hover test-schedule">
                   <thead>
@@ -90,24 +90,20 @@
                   </tbody>
                 </table>
         </div>
-        
+          
+          <div class="col-md-6 col-sm-12 hidden-xs">
+            <div class="text-center">
+              <a href="javascript:void(0)" class="btn  btn-lg btn-block btn-raised btn-hotline"><i class="fa fa-phone" aria-hidden="true"></i> Call 1-888-405-2368 for facility status</a>
+            </div>
+          </div>
+          
       </div>
     </div>
     
-    <!-- Status Hotline button -->
+    <!-- Status Hotline FAB -->
     <div class="hotline fab-wrapper hidden-sm hidden-md hidden-lg">
       <div class="text-center">
-        <a href="tel://1-888-405-2368" class="btn btn-lg btn-fab btn-raised btn-hotline"><i class="fa fa-phone"></i></a>
-      </div>
-    </div>
-    
-    <div class="container">
-      <div class="hidden-xs row">
-        <div class="col-md-12">
-          <div class="text-center accent-color">
-            <a href="javascript:void(0)" class="btn  btn-lg btn-block btn-raised btn-hotline"><i class="fa fa-phone"></i> Call 1-888-405-2368 for facility status</a>
-          </div>
-        </div>
+        <a href="tel://1-888-405-2368" class="btn btn-lg btn-fab btn-raised btn-hotline"><i class="fa fa-phone" title="Call" aria-hidden="true"></i><span class="sr-only">Call facility status hotline</span></a>
       </div>
     </div>
   

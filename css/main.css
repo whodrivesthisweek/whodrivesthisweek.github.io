@@ -16,7 +16,17 @@ body {
 */
 
 .navbar.navbar, .navbar-default.navbar {
-   background: #0000ff;
+   background: 
+      -webkit-gradient(linear, right bottom, left bottom,
+      color-stop(0, rgb(80,190,190)),
+      color-stop(0.5, rgb(0,153,153)),
+      color-stop(0.83, rgb(0,153,203)),
+      color-stop(rgb(0,153,176)));
+   background: rgb(0,153,153);
+   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
    font-weight: 400;
 }
 
@@ -67,7 +77,7 @@ a.navbar-brand {
 }
 
 .list-header {
-    padding-left: 22px;
+    
 }
 
 .table.table-hover tr th {
@@ -83,7 +93,7 @@ th {
 }
 
 tr, td {
-  color: #0000ff; 
+  color: #0000ff;
 }
 
 p.list-header {
@@ -102,14 +112,28 @@ p.list-header {
 
 .btn-hotline {
    color: #fff !important;
-   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
-   background: #0000ff;
+   background: 
+      -webkit-gradient(linear, right bottom, left bottom,
+      color-stop(0, rgb(80,190,190)),
+      color-stop(0.5, rgb(0,153,153)),
+      color-stop(0.83, rgb(0,153,203)),
+      color-stop(rgb(0,153,176)));
+   background: rgb(0,153,153);
+   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
    border-radius: 100px;
 }
 
 .btn:hover {
   background: #fff !important;
   color: #00f !important;
+  border-color: #00f !important;
+}
+
+.btn-fab {
+   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
 }
 
 .fab-wrapper {
