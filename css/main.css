@@ -10,23 +10,13 @@ body {
 --- With Box Shadow ---
 .navbar.navbar, .navbar-default.navbar {
    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
-   background: #0000ff;
+   background: #00a0ff;
    font-weight: 400;
 }
 */
 
 .navbar.navbar, .navbar-default.navbar {
-   background: 
-      -webkit-gradient(linear, right bottom, left bottom,
-      color-stop(0, rgb(80,190,190)),
-      color-stop(0.5, rgb(0,153,153)),
-      color-stop(0.83, rgb(0,153,203)),
-      color-stop(rgb(0,153,176)));
-   background: rgb(0,153,153);
-   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: #00a0ff;
    font-weight: 400;
 }
 
@@ -91,7 +81,7 @@ a.navbar-brand {
 }
 
 .table.table-hover tr th {
-  border-bottom: 2px solid #0000ff;
+  border-bottom: 2px solid #00a0ff;
 } 
 
 .table.table-hover tr td {
@@ -103,12 +93,12 @@ th {
 }
 
 tr, td {
-  color: #0000ff;
+  color: #00a0ff;
 }
 
 p.list-header {
     font-weight: 700;
-    color: #0000ff;
+    color: #00a0ff;
 }
 
 .test-schedule {
@@ -122,24 +112,14 @@ p.list-header {
 
 .btn-hotline {
    color: #fff !important;
-   background: 
-      -webkit-gradient(linear, right bottom, left bottom,
-      color-stop(0, rgb(80,190,190)),
-      color-stop(0.5, rgb(0,153,153)),
-      color-stop(0.83, rgb(0,153,203)),
-      color-stop(rgb(0,153,176)));
-   background: rgb(0,153,153);
-   background: -webkit-linear-gradient(left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: -o-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: -moz-linear-gradient(right, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
-   background: linear-gradient(to left, rgb(80,190,190), rgb(0,153,153), rgb(0,153,203), rgb(0,153,176));
+   background: #00a0ff;
    border-radius: 100px;
 }
 
 .btn:hover {
   background: #fff !important;
-  color: #00f !important;
-  border-color: #00f !important;
+  color: #00a0ff !important;
+  border-color: #00a0ff !important;
 }
 
 .btn-fab {
