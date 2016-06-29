@@ -51,6 +51,16 @@ a.navbar-brand {
 .navbar-brand i {
    padding-bottom: 3px;
    color: #fff;
+   background-repeat: no-repeat;
+   background-position: 0 top;
+   content: "";
+   display: inline-block;
+   height: 29px;
+   margin-right: 10px;
+   vertical-align: middle;
+   width: 29px;
+   background-image: url('https://cloud.githubusercontent.com/assets/9142339/16465649/701ff2a2-3e05-11e6-8609-051e3a3d13b7.png');
+   background-size: 29px;
 }
 
 .notice a {
