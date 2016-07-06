@@ -4,6 +4,7 @@ body {
    margin: 0 auto;
    height: 100%;
    padding-top: 50px;
+   background: #f8f8f8
 }
 
 /*
@@ -16,7 +17,7 @@ body {
 */
 
 .navbar.navbar, .navbar-default.navbar {
-   background: #00a0ff;
+   background: #fff;
    font-weight: 400;
 }
 
@@ -35,7 +36,7 @@ a.navbar-brand {
     padding-top: 13px !important;
     padding-bottom: 13px !important;
     font-size: 1.5em;
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .navbar-brand i {
@@ -81,24 +82,27 @@ a.navbar-brand {
 }
 
 .table.table-hover tr th {
-  border-bottom: 2px solid #00a0ff;
+  border-bottom: 2px solid ;
+  background: #f8f8f8;
 } 
 
 .table.table-hover tr td {
-  border-bottom: 1px solid #ffffff; 
+  border-bottom: 1px solid #f8f8f8;
+  background: #f8f8f8;
 }
 
 th {
   font-weight: 700; 
 }
 
+
 tr, td {
-  color: #00a0ff;
+  color: #000;
 }
 
 p.list-header {
     font-weight: 700;
-    color: #00a0ff;
+    color: #000;
 }
 
 .test-schedule {
@@ -111,15 +115,16 @@ p.list-header {
 }
 
 .btn-hotline {
-   color: #fff !important;
-   background: #00a0ff;
+   color: #000 !important;
+   background: #f8f8f8;
    border-radius: 100px;
+   border-color: #000;
 }
 
 .btn:hover {
-  background: #fff !important;
-  color: #00a0ff !important;
-  border-color: #00a0ff !important;
+  background: #000 !important;
+  color: #f8f8f8 !important;
+  border-color: #000 !important;
 }
 
 .btn-fab {
