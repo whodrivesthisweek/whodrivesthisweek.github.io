@@ -91,6 +91,10 @@ a.navbar-brand {
   background: #f8f8f8;
 }
 
+.holiday {
+   color: #ff5555;
+}
+
 th {
   font-weight: 700; 
 }
