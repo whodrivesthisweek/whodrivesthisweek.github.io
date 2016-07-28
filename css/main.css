@@ -92,6 +92,11 @@ a.navbar-brand {
 }
 
 .holiday {
+   color: #5555ff;
+   font-weight: 500;
+}
+
+.deviation {
    color: #ff5555;
    font-weight: 500;
 }
