@@ -7,7 +7,7 @@ app.controller('MainController', ['$scope', function($scope) {
     },
     {
       name: 'GIMLI',
-      day: new Date('2016','7,'8')
+      day: new Date('2016','7','8')
     },
     {
       name: 'SNAKE/CONDOR',
