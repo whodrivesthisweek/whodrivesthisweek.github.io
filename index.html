@@ -65,7 +65,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr ng-repeat="week in schedule">
+                    <tr ng-repeat="week in schedule" data-ng-class="getClass(week)">
                       <td>{{ week.day | date:'MM/dd/y' }}</td>
                       <td>{{ week.name }}</td>
                     </tr>
