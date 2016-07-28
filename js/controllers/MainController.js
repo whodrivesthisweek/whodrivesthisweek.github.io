@@ -4,111 +4,111 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'SNAKE',
       day: new Date('2016','7','1'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI',
       day: new Date('2016','7','8'),
-      holiday: 'N'
+      special: 'D'
     },
     {
       name: 'SNAKE/CONDOR',
       day: new Date('2016','7','15'),
-      holiday: 'N'
+      special: 'D'
     },
     {
       name: 'SNAKE/CONDOR',
       day: new Date('2016','7','22'),
-      holiday: 'N'
+      special: 'D'
     },
     {
       name: 'CONDOR',
       day: new Date('2016','7','29'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI ',
       day: new Date('2016','8','5'),
-      holiday: 'Y'
+      special: 'H'
     },
     {
       name: 'SNAKE',
       day: new Date('2016','8','12'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'CONDOR',
       day: new Date('2016','8','19'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI',
       day: new Date('2016','8','26'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'SNAKE',
       day: new Date('2016','9','3'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'CONDOR',
       day: new Date('2016','9','10'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI',
       day: new Date('2016','9','17'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'SNAKE',
       day: new Date('2016','9','24'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'CONDOR',
       day: new Date('2016','9','31'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI',
       day: new Date('2016','10','7'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'SNAKE',
       day: new Date('2016','10','14'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'CONDOR',
       day: new Date('2016','10','21'),
-      holiday: 'Y'
+      special: 'H'
     },
     {
       name: 'GIMLI',
       day: new Date('2016','10','28'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'SNAKE',
       day: new Date('2016','11','5'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'CONDOR',
       day: new Date('2016','11','12'),
-      holiday: 'N'
+      special: ''
     },
     {
       name: 'GIMLI',
       day: new Date('2016','11','19'),
-      holiday: 'Y'
+      special: 'H'
     }
   ];
   
-  $scope.holidays = [
+  $scope.specials = [
     {
       name: 'Labor Day',
       day: new Date('2016', '8', '5')
@@ -141,7 +141,8 @@ app.controller('MainController', ['$scope', function($scope) {
   
   $scope.getClass = function (week) {
     return {
-      holiday: week.holiday === 'Y'
+      holiday: week.special === 'H',
+      deviation: week.special === 'D'
     };
   };
   
