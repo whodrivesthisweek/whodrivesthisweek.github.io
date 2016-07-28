@@ -108,7 +108,7 @@ app.controller('MainController', ['$scope', function($scope) {
     }
   ];
   
-  $scope.specials = [
+  $scope.holidays = [
     {
       name: 'Labor Day',
       day: new Date('2016', '8', '5')
