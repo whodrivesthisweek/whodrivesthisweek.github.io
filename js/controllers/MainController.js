@@ -1,4 +1,7 @@
 // Standard Rotation: SNAKE, CONDOR, GIMLI
+// name: code name for driver
+// day: first day of week, NOTE: month is 0 indexed ie, January = month 0, February = month 1, etc
+// special: row highlighting based on class, D = deviation from normal rotation, H = holiday week
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
@@ -12,12 +15,12 @@ app.controller('MainController', ['$scope', function($scope) {
       special: 'D'
     },
     {
-      name: 'SNAKE/CONDOR',
+      name: 'SNAKE',
       day: new Date('2016','7','15'),
       special: 'D'
     },
     {
-      name: 'SNAKE/CONDOR',
+      name: 'CONDOR',
       day: new Date('2016','7','22'),
       special: 'D'
     },
