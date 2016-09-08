@@ -2,33 +2,9 @@
 // name: code name for driver
 // day: first day of week, NOTE: month is 0 indexed ie, January = month 0, February = month 1, etc
 // special: row highlighting based on class, D = deviation from normal rotation, H = holiday week
+
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
-    {
-      name: 'SNAKE',
-      day: new Date('2016','7','1'),
-      special: ''
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2016','7','8'),
-      special: 'D'
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2016','7','15'),
-      special: 'D'
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','7','22'),
-      special: 'D'
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','7','29'),
-      special: ''
-    },
     {
       name: 'GIMLI ',
       day: new Date('2016','8','5'),
