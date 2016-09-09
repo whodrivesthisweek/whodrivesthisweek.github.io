@@ -3,7 +3,7 @@ body {
    font-weight: 300;
    margin: 0 auto;
    height: 100%;
-   padding-top: 25px;
+   padding-top: 0px;
    padding-bottom: 25px;
    background: #f8f8f8
 }
@@ -15,7 +15,6 @@ body {
    background: #00a0ff;
    font-weight: 400;
 }
-*/
 
 .navbar-brand i {
    padding-bottom: 3px;
@@ -31,10 +30,11 @@ body {
    background-image: url('https://cloud.githubusercontent.com/assets/9142339/16465649/701ff2a2-3e05-11e6-8609-051e3a3d13b7.png');
    background-size: 29px;
 }
+*/
 
 .page-header {
-  padding-bottom: 30px;
-  border-color: #fff;
+  padding-bottom: 100px;
+  border-color: #f8f8f8;
 }
 
 .page-header-box {
