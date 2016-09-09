@@ -8,6 +8,8 @@ $(window).bind("load", function() {
 function afterLoad() {
   $('#page-header').stop().animate({
     'padding-top' : '0px',
-    'padding-bottom' : '0px'
   }, 800);
+  $('#driving-schedule').delay(800).fadeIn(800);
+  $('#holiday-schedule').delay(800).fadeIn(800);
+  $('#hotline-button').delay(800).fadeIn(800);
 }
