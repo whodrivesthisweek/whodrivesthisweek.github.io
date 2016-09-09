@@ -42,6 +42,10 @@ body {
   
 }
 
+#driving-schedule, #holiday-schedule, #hotline-button {
+   display: none;
+}
+
 .col-schedule {
   padding-top: 10px;
   padding-bottom: 20px;
