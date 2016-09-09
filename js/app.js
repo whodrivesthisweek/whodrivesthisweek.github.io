@@ -2,7 +2,7 @@ var app = angular.module('DriveApp', []);
 var timeoutID;
 
 $(window).bind("load", function() {
-  timeoutID = window.setTimeout(afterLoad,2000);
+  timeoutID = window.setTimeout(afterLoad,1300);
 });
 
 function afterLoad() {
