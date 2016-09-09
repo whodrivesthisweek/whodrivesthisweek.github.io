@@ -7,7 +7,7 @@ $(window).bind("load", function() {
 
 function afterLoad() {
   $('#page-header').stop().animate({
-    'padding-top' : '0px',
-    'padding-bottom' : '0px'
+    'padding-top' : '5px',
+    'padding-bottom' : '5px'
   }, 800);
 }
