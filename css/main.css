@@ -4,7 +4,7 @@ body {
    margin: 0 auto;
    height: 100%;
    padding-top: 0px;
-   padding-bottom: 25px;
+   padding-bottom: 250px;
    background: #f8f8f8
 }
 
@@ -34,7 +34,7 @@ body {
 
 .page-header {
   padding-top: 150px;
-  padding-bottom: 517px;
+  padding-bottom: 1000px;
   border-color: #f8f8f8;
 }
 
@@ -109,4 +109,12 @@ p.list-header {
   border-color: #000 !important;
   
   box-shadow: inset 0 -5px #000
+}
+
+.scroll-text-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
 }

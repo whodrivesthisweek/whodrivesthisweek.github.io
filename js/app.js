@@ -11,8 +11,10 @@ $(window).scroll(function(){
     {
       $('#page-header').data('size','small');
       $('#page-header').stop().animate({
-        paddingBottom: '0px'
-      }, 600);
+        'padding-bottom' : '0px',
+        'padding-top' : '0px'
+      }, 800);
+      $("h3").addClass("hidden");
     }
   }
   else
@@ -21,8 +23,10 @@ $(window).scroll(function(){
     {
       $('#page-header').data('size','big');
       $('#page-header').stop().animate({
-        paddingBottom: '517px'
-      }, 600);
+        'padding-bottom' : '1000px',
+        'padding-top' : '150px'
+      }, 800);
+      $("h3").removeClass("hidden");
     }
   }
 });
