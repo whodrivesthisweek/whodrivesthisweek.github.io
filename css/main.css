@@ -99,8 +99,8 @@ p.list-header {
   text-transform: capitalize !important;
   text-decoration: none;
   
-  color: #909090 !important;
-  background: #f8f8f8;
+  color: #a0a0a0 !important;
+  background: #606060;
   border-radius: 8px;
   border-color: #000;
   
@@ -108,7 +108,7 @@ p.list-header {
 }
 
 .btn:hover {
-  background: #909090 !important;
+  background: #a0a0a0 !important;
   color: #f8f8f8 !important;
   border-color: #000 !important;
   
