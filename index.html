@@ -33,31 +33,25 @@
   </head>
   
   <body ng-app="DriveApp">
-
-    <!-- Top Bar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="navbar-header">
-            <div class="brand">
-              <a class="navbar-brand" href="javascript:void(0)"><i aria-hidden="true"></i> WHO DRIVES THIS WEEK</a>
-            </div>
+    
+    <!-- Header -->
+    <div class="container page-header">
+      <div class="row">
+        <div class="col-md-12 text-center page-header-box">
+          <h1>WHO DRIVES THIS WEEK</h1>
         </div>
+      </div>
     </div>
-    
-    <!-- Notices -->
-    <div class="notice hidden">
-      <p class="text-center"></p>
-    </div>
-    
-    <div class="spacer"></div>
     
     <!-- Schedule -->
     <div class="main" ng-controller="MainController" ng-cloak>
-      <div class="container spacer">
+      <div class="container">
         <div class="row">
           
-          <div class="col-md-6 col-sm-6">
+          <!-- Driving Schedule -->
+          <div class="col-md-6 col-sm-6 col-schedule">
             <p class="list-header text-center">SCHEDULE</p>
-                <table class="table table-hover test-schedule">
+                <table class="table table-hover schedule">
                   <thead>
                     <tr>
                       <th class="text-center">Week of</th>
@@ -73,9 +67,10 @@
                 </table>
           </div>
           
-          <div class="col-md-6 col-sm-6">
+          <!-- Holiday Schedule -->
+          <div class="col-md-6 col-sm-6 col-schedule">
             <p class="list-header text-center">HOLIDAYS</p>
-                <table class="table table-hover test-schedule">
+                <table class="table table-hover schedule">
                   <thead>
                     <tr>
                       <th class="text-center">Date</th>
@@ -91,21 +86,16 @@
                 </table>
         </div>
           
-          <div class="col-md-6 col-sm-12 hidden-xs">
+          <!-- Hotline Button -->
+          <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="text-center">
-              <a href="javascript:void(0)" class="btn  btn-lg btn-block btn-raised btn-hotline"><i class="fa fa-phone" aria-hidden="true"></i> Call 1-888-405-2368 for facility status</a>
+              <a href="javascript:void(0)" class="btn  btn-lg btn-block btn-hotline"><i class="fa fa-phone" aria-hidden="true"></i> FACILITY STATUS HOTLINE</a>
             </div>
           </div>
           
       </div>
     </div>
-    
-    <!-- Status Hotline FAB -->
-    <div class="hotline fab-wrapper hidden-sm hidden-md hidden-lg">
-      <div class="text-center">
-        <a href="tel://1-888-405-2368" class="btn btn-lg btn-fab btn-raised btn-hotline"><i class="fa fa-phone" title="Call" aria-hidden="true"></i><span class="sr-only">Call facility status hotline</span></a>
-      </div>
-    </div>
+  </div>
   
   <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

@@ -3,7 +3,8 @@ body {
    font-weight: 300;
    margin: 0 auto;
    height: 100%;
-   padding-top: 50px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    background: #f8f8f8
 }
 
@@ -15,29 +16,6 @@ body {
    font-weight: 400;
 }
 */
-
-.navbar.navbar, .navbar-default.navbar {
-   background: #fff;
-   font-weight: 400;
-}
-
-.navbar {
-   margin: 0px;
-}
-
-.navbar.navbar, .navbar-default.navbar, .navbar-nav li a, .navbar-header {
-    line-height: 56px;
-    height: 56px;
-    padding-top: 0;
-    color: #fff;
-}
-
-a.navbar-brand {
-    padding-top: 13px !important;
-    padding-bottom: 13px !important;
-    font-size: 1.5em;
-    color: #000 !important;
-}
 
 .navbar-brand i {
    padding-bottom: 3px;
@@ -54,31 +32,21 @@ a.navbar-brand {
    background-size: 29px;
 }
 
-.notice a {
-    color: #2196f3;
+.page-header {
+  padding-bottom: 30px;
 }
 
-.notice p {
-  margin: 6px;
-  padding: 2px;
+.page-header-box {
+  
 }
 
-.notice h3 {
-   margin: 0px;
-   padding: 2px;
+.col-schedule {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .schedule th, td{
   text-align: center;
-}
-
-.spacer {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.list-header {
-    
 }
 
 .table.table-hover tr th {
@@ -110,7 +78,7 @@ p.list-header {
     color: #000;
 }
 
-.test-schedule {
+.schedule {
   background: #ffffff;
 }
 
@@ -120,24 +88,23 @@ p.list-header {
 }
 
 .btn-hotline {
-   color: #000 !important;
-   background: #f8f8f8;
-   border-radius: 100px;
-   border-color: #000;
+  padding: 17px 22px 18px;
+  text-align: center;
+  text-transform: capitalize !important;
+  text-decoration: none;
+  
+  color: #606060 !important;
+  background: #f8f8f8;
+  border-radius: 8px;
+  border-color: #000;
+  
+  box-shadow: inset 0 -5px #000;
 }
 
 .btn:hover {
-  background: #000 !important;
+  background: #606060 !important;
   color: #f8f8f8 !important;
   border-color: #000 !important;
-}
-
-.btn-fab {
-   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
-}
-
-.fab-wrapper {
-   position: fixed;
-   bottom: 10px;
-   right: 10px;
+  
+  box-shadow: inset 0 -5px #000
 }
