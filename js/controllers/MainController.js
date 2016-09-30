@@ -6,26 +6,6 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
-      name: 'GIMLI ',
-      day: new Date('2016','8','5'),
-      special: 'H'
-    },
-    {
-      name: 'SNAKE',
-      day: new Date('2016','8','12'),
-      special: ''
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','8','19'),
-      special: ''
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2016','8','26'),
-      special: ''
-    },
-    {
       name: 'SNAKE',
       day: new Date('2016','9','3'),
       special: ''
@@ -124,5 +104,7 @@ app.controller('MainController', ['$scope', function($scope) {
       deviation: week.special === 'D'
     };
   };
+  
+  $scope.date = new Date();
   
 }]);
