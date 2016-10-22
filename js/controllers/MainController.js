@@ -7,21 +7,6 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
       name: 'SNAKE',
-      day: new Date('2016','9','3'),
-      special: ''
-    },
-    {
-      name: 'CONDOR',
-      day: new Date('2016','9','10'),
-      special: ''
-    },
-    {
-      name: 'GIMLI',
-      day: new Date('2016','9','17'),
-      special: ''
-    },
-    {
-      name: 'SNAKE',
       day: new Date('2016','9','24'),
       special: ''
     },
@@ -68,10 +53,6 @@ app.controller('MainController', ['$scope', function($scope) {
   ];
   
   $scope.holidays = [
-    {
-      name: 'Labor Day',
-      day: new Date('2016', '8', '5')
-    },
     {
       name: 'Thanksgiving Day',
       day: new Date('2016', '10', '24')
