@@ -7,60 +7,52 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
       name: 'SNAKE',
-      day: new Date('2016','9','24'),
-      special: ''
+      day: new Date('2017','0','2'),
+      special: 'H'
     },
     {
       name: 'CONDOR',
-      day: new Date('2016','9','31'),
+      day: new Date('2017','0','9'),
       special: ''
     },
     {
       name: 'GIMLI',
-      day: new Date('2016','10','7'),
+      day: new Date('2017','0','16'),
       special: ''
     },
     {
       name: 'SNAKE',
-      day: new Date('2016','10','14'),
+      day: new Date('2017','0','23'),
       special: ''
     },
     {
       name: 'CONDOR',
-      day: new Date('2016','10','21'),
+      day: new Date('2017','0','30'),
       special: 'H'
     },
     {
       name: 'GIMLI',
-      day: new Date('2016','10','28'),
+      day: new Date('2017','1','6'),
       special: ''
     },
     {
       name: 'SNAKE',
-      day: new Date('2016','11','5'),
+      day: new Date('2017','1','13'),
       special: ''
     },
     {
       name: 'CONDOR',
-      day: new Date('2016','11','12'),
+      day: new Date('2017','1','20'),
       special: ''
     },
     {
       name: 'GIMLI',
-      day: new Date('2016','11','19'),
+      day: new Date('2017','1','27'),
       special: 'H'
     }
   ];
   
   $scope.holidays = [
-    {
-      name: 'Thanksgiving Day',
-      day: new Date('2016', '10', '24')
-    },
-    {
-      name: 'Day After Thanksgiving',
-      day: new Date('2016', '10', '25')
-    },
     {
       name: 'Christmas Eve (obs.)',
       day: new Date('2016', '11', '23')
@@ -76,7 +68,39 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: "New Year's Day (obs.)",
       day: new Date('2017', '0', '2')
-    }
+    },
+    {
+      name: "Memorial Day",
+      day: new Date('2017', '4', '29')
+    },
+    {
+      name: "Independence Day",
+      day: new Date('2017', '6', '4')
+    },
+    {
+      name: "Labor Day",
+      day: new Date('2017', '8', '4')
+    },
+    {
+      name: "Thanksgiving Day",
+      day: new Date('2017', '10', '23')
+    },
+    {
+      name: "Day after Thanksgiving",
+      day: new Date('2017', '10', '24')
+    },
+    {
+      name: "Christmas Eve (obs.)",
+      day: new Date('2017', '11', '22')
+    },
+    {
+      name: "Christmas Day",
+      day: new Date('2017', '11', '25')
+    },
+    {
+      name: "New Year's Eve (obs.)",
+      day: new Date('2017', '11', '29')
+    }              
   ];
   
   $scope.getClass = function (week) {
