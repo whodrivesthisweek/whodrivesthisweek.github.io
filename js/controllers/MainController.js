@@ -28,7 +28,7 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'CONDOR',
       day: new Date('2017','0','30'),
-      special: 'H'
+      special: ''
     },
     {
       name: 'GIMLI',
@@ -48,7 +48,7 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       name: 'GIMLI',
       day: new Date('2017','1','27'),
-      special: 'H'
+      special: ''
     }
   ];
   
