@@ -54,18 +54,6 @@ app.controller('MainController', ['$scope', function($scope) {
   
   $scope.holidays = [
     {
-      name: 'Christmas Eve (obs.)',
-      day: new Date('2016', '11', '23')
-    },
-    {
-      name: 'Christmas Day (obs.)',
-      day: new Date('2016', '11', '26')
-    },
-    {
-      name: "New Year's Eve (obs.)",
-      day: new Date('2016', '11', '30')
-    },
-    {
       name: "New Year's Day (obs.)",
       day: new Date('2017', '0', '2')
     },
