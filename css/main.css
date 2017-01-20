@@ -42,7 +42,7 @@ body {
   
 }
 
-#driving-schedule, #holiday-schedule, #hotline-button {
+#driving-schedule, #holiday-schedule, #hotline-button, #quote-text {
    display: none;
 }
 
@@ -119,4 +119,8 @@ p.list-header {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+#quote-text {
+   padding-top: 16px;
 }
