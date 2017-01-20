@@ -15,4 +15,6 @@ function afterLoad() {
   $('#holiday-schedule').delay(800).fadeIn(800);
   
   $('#hotline-button').delay(800).fadeIn(800);
+  
+  $('#quote-text').delay(800).fadeIn(800);
 }
