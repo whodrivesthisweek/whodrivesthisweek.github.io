@@ -42,7 +42,7 @@ body {
   
 }
 
-#driving-schedule, #holiday-schedule, #hotline-button, #quote-text {
+#driving-schedule, #holiday-schedule, #hotline-button, #quote-text, #countdown {
    display: none;
 }
 
@@ -122,5 +122,14 @@ p.list-header {
 }
 
 #quote-text {
-   padding-top: 16px;
+   padding-top: 32px;
+}
+
+.progress {
+  height: 8px;
+  background-color: #afafaf;
+}
+
+.progress-bar {
+  background-color: #5f5f5f;
 }
