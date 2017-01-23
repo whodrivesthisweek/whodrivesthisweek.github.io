@@ -6,14 +6,14 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
-      name: 'GIMLI',
+      name: 'SNAKE',
       day: new Date('2017','0','16'),
-      special: ''
+      special: 'D'
     },
     {
-      name: 'SNAKE',
+      name: 'GIMLI',
       day: new Date('2017','0','23'),
-      special: ''
+      special: 'D'
     },
     {
       name: 'CONDOM',
