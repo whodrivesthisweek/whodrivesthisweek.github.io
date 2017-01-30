@@ -1,4 +1,4 @@
-// Standard Rotation: SNAKE, CONDOM, GIMLI
+// Standard Rotation: SNAKE, CONDOR, GIMLI
 // name: code name for driver
 // day: first day of week, NOTE: month is 0 indexed ie, January = month 0, February = month 1, etc
 // special: row highlighting based on class, D = deviation from normal rotation, H = holiday week
@@ -16,7 +16,7 @@ app.controller('MainController', ['$scope', function($scope) {
       special: 'D'
     },
     {
-      name: 'CONDOM',
+      name: 'CONDOR',
       day: new Date('2017','0','30'),
       special: ''
     },
@@ -31,7 +31,7 @@ app.controller('MainController', ['$scope', function($scope) {
       special: ''
     },
     {
-      name: 'CONDOM',
+      name: 'CONDOR',
       day: new Date('2017','1','20'),
       special: ''
     },
