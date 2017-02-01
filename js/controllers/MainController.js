@@ -7,8 +7,7 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.schedule = [
     {
       name: 'SNAKE',
-      day: new Date('2017','0','16'),
-      special: 'D'
+      day: new Date('2017','0','16')
     },
     {
       name: 'GIMLI',
@@ -17,8 +16,7 @@ app.controller('MainController', ['$scope', function($scope) {
     },
     {
       name: 'CONDOR',
-      day: new Date('2017','0','30'),
-      special: ''
+      day: new Date('2017','0','30')
     },
     {
       name: 'GIMLI',
