@@ -44,7 +44,7 @@
     </div>
     
     <!-- Schedule -->
-    <div class="main" ng-controller="MainController" ng-cloak>
+    <div class="main">
       <div class="container">
         <div class="row">
           
@@ -54,7 +54,7 @@
           <!-- Driving Schedule -->
           <div class="col-md-6 col-sm-6 col-schedule" id="driving-schedule">
             <p class="list-header text-center">SCHEDULE</p>
-                <table class="table table-hover schedule">
+                <table class="table table-hover schedule" ng-controller="scheduleController" ng-cloak>
                   <thead>
                     <tr>
                       <th class="text-center">Week of</th>
@@ -62,9 +62,9 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr ng-repeat="week in schedule" data-ng-class="getClass(week)">
-                      <td>{{ week.day | date:'MM/dd/y' }}</td>
-                      <td>{{ week.name }}</td>
+                    <tr ng-repeat="week in schedule" class="{{ week.fields.special }}" >
+                      <td>{{ week.fields.day | date:'MM/dd/y' }}</td>
+                      <td>{{ week.fields.name }}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -73,7 +73,7 @@
           <!-- Holiday Schedule -->
           <div class="col-md-6 col-sm-6 col-schedule" id="holiday-schedule">
             <p class="list-header text-center">HOLIDAYS</p>
-                <table class="table table-hover schedule">
+                <table class="table table-hover schedule" ng-controller="holidayController" ng-cloak>
                   <thead>
                     <tr>
                       <th class="text-center">Date</th>
@@ -82,8 +82,8 @@
                   </thead>
                   <tbody>
                     <tr ng-repeat="holiday in holidays">
-                      <td>{{ holiday.day | date:'MM/dd/y' }}</td>
-                      <td>{{ holiday.name }}</td>
+                      <td>{{ holiday.fields.day | date:'MM/dd/y' }}</td>
+                      <td>{{ holiday.fields.name }}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -118,7 +118,7 @@
   <!-- Modules -->
   <script src="js/app.js"></script>
   <!-- Controllers -->
-  <script src="js/controllers/MainController.js"></script>
+  <!-- <script src="js/controllers/MainController.js"></script> -->
   <!-- Directives -->
   <script src="js/directives/listGroup.js"></script>
       

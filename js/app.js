@@ -1,4 +1,14 @@
 var app = angular.module('DriveApp', []);
+app.controller('scheduleController', function($scope, $http) {
+  $http.get("https://api.airtable.com/v0/app1PUSMiEGucwJn9/Schedule?api_key=key0zyix0kscDg3pX&sort%5B0%5D%5Bfield%5D=day&sort%5B0%5D%5Bdirection%5D=asc")
+  .then(function (response) {$scope.schedule = response.data.records;});
+});
+
+app.controller('holidayController', function($scope, $http) {
+  $http.get("https://api.airtable.com/v0/app1PUSMiEGucwJn9/Holidays?api_key=key0zyix0kscDg3pX&sort%5B0%5D%5Bfield%5D=day&sort%5B0%5D%5Bdirection%5D=asc")
+  .then(function (response) {$scope.holidays = response.data.records;});
+});
+
 var timeoutID;
 
 // hold title in the middle of the screen
