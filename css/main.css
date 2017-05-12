@@ -133,3 +133,12 @@ p.list-header {
 .progress-bar {
   background-color: #5f5f5f;
 }
+
+.countdown-container {
+  margin-top: 32px;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
