@@ -9,30 +9,6 @@ body {
    background: #f8f8f8
 }
 
-/*
---- With Box Shadow ---
-.navbar.navbar, .navbar-default.navbar {
-   box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28) !important;
-   background: #00a0ff;
-   font-weight: 400;
-}
-
-.navbar-brand i {
-   padding-bottom: 3px;
-   color: #fff;
-   background-repeat: no-repeat;
-   background-position: 0 top;
-   content: "";
-   display: inline-block;
-   height: 29px;
-   margin-right: 10px;
-   vertical-align: middle;
-   width: 29px;
-   background-image: url('https://cloud.githubusercontent.com/assets/9142339/16465649/701ff2a2-3e05-11e6-8609-051e3a3d13b7.png');
-   background-size: 29px;
-}
-*/
-
 .page-header {
   padding-top: 150px;
   padding-bottom: 0px;
