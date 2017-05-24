@@ -44,82 +44,81 @@
     </div>
     
     <!-- Schedule -->
-    <div class="main">
-      <div class="container">
-        <div class="row">
-          
-          <!-- Driving Schedule -->
-          <div class="col-md-6 col-sm-6 col-schedule" id="driving-schedule">
-            <p class="list-header text-center">SCHEDULE</p>
-            <table class="table table-hover schedule" ng-controller="scheduleController" ng-cloak>
-              <thead>
-                <tr>
-                  <th class="text-center">Week of</th>
-                  <th class="text-center">Driver</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="week in schedule" class="{{ week.fields.special }}" >
-                  <td>{{ week.fields.day | date:'MM/dd/y' }}</td>
-                  <td>{{ week.fields.name }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          
-          <!-- Holiday Schedule -->
-          <div class="col-md-6 col-sm-6 col-schedule" id="holiday-schedule">
-            <p class="list-header text-center">HOLIDAYS</p>
-            <table class="table table-hover schedule" ng-controller="holidayController" ng-cloak>
-              <thead>
-                <tr>
-                  <th class="text-center">Date</th>
-                  <th class="text-center">Holiday</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr ng-repeat="holiday in holidays">
-                  <td>{{ holiday.fields.day | date:'MM/dd/y' }}</td>
-                  <td>{{ holiday.fields.name }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          
+    <div class="container">
+      <div class="row">
 
-          
-          <!-- Hotline Button -->
+        <!-- Driving Schedule -->
+        <div class="col-md-6 col-sm-6 col-schedule" id="driving-schedule">
+          <p class="list-header text-center">SCHEDULE</p>
+          <table class="table table-hover schedule" ng-controller="scheduleController" ng-cloak>
+            <thead>
+              <tr>
+                <th class="text-center">Week of</th>
+                <th class="text-center">Driver</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="week in schedule" class="{{ week.fields.special }}" >
+                <td>{{ week.fields.day | date:'MM/dd/y' }}</td>
+                <td>{{ week.fields.name }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Holiday Schedule -->
+        <div class="col-md-6 col-sm-6 col-schedule" id="holiday-schedule">
+          <p class="list-header text-center">HOLIDAYS</p>
+          <table class="table table-hover schedule" ng-controller="holidayController" ng-cloak>
+            <thead>
+              <tr>
+                <th class="text-center">Date</th>
+                <th class="text-center">Holiday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="holiday in holidays">
+                <td>{{ holiday.fields.day | date:'MM/dd/y' }}</td>
+                <td>{{ holiday.fields.name }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+
+        <!-- Hotline Button -->
+        <div class="row">
           <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12" id="hotline-button">
             <div class="text-center">
               <a href="tel://1-888-405-2368" class="btn  btn-lg btn-block btn-hotline"><i class="fa fa-phone" aria-hidden="true"></i> FACILITY STATUS HOTLINE</a>
             </div>
           </div>
-          
+        </div>
 
 
-          
-          <!-- Quote Text
-          <div class="col-md-6 col-sm-12 col-xs-12" id="quote-text">
-            <blockquote>
-              <p>It's sad that a family can be torn apart by something as simple as a pack of wild dogs.</p>
-              <footer>Jack Handey, <cite><a href="deep.txt">Deep Thoughts</a></cite></footer>
-            </blockquote>
-          </div>
-          -->
-          
+
+
+        <!-- Quote Text
+        <div class="col-md-6 col-sm-12 col-xs-12" id="quote-text">
+          <blockquote>
+            <p>It's sad that a family can be torn apart by something as simple as a pack of wild dogs.</p>
+            <footer>Jack Handey, <cite><a href="deep.txt">Deep Thoughts</a></cite></footer>
+          </blockquote>
+        </div>
+        -->
+
+    </div>
+  </div>
+
+  <!-- Timer -->    
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="countdown-container">
+        <div class="col-md-12 col-sm-12 col-xs-12" id="countdown"></div>
       </div>
     </div>
-      
-    <!-- Timer -->    
-    <footer class="footer">
-      <div class="container">
-        <div class="countdown-container">
-          <div class="col-md-12 col-sm-12 col-xs-12" id="countdown"></div>
-        </div>
-      </div>
-    </footer>
-      
-  </div>
+  </footer>
   
   <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
