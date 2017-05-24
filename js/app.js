@@ -31,6 +31,8 @@ function afterLoad() {
   $('#quote-text').delay(800).fadeIn(800);
   
   $('#countdown').delay(800).fadeIn(800);
+  
+  $('#footer').delay(800).fadeIn(800);
 }
 
 // set the date we're counting down to
