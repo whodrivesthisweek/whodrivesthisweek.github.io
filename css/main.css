@@ -1,12 +1,15 @@
+html {
+   position: relative;
+   min-height: 100%;
+}
+
 body {
    font-family: 'Open Sans', sans-serif;
    font-weight: 300;
-   margin: 0 auto;
    margin-bottom: 60px;
-   height: 100%;
    padding-top: 0px;
-   padding-bottom: 20px;
-   background: #f8f8f8
+   /* padding-bottom: 20px; */
+   background: #f8f8f8;
 }
 
 .page-header {
@@ -19,7 +22,7 @@ body {
   
 }
 
-#driving-schedule, #holiday-schedule, #hotline-button, #quote-text, #countdown {
+#driving-schedule, #holiday-schedule, #hotline-button, #quote-text, #countdown, #footer {
    display: none;
 }
 
