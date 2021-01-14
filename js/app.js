@@ -36,8 +36,8 @@ function afterLoad() {
 }
 
 // set the date we're counting down to
-var target_date = new Date('Jan, 19, 2021').getTime();
- 
+var target_date = new Date('January 20, 2021 12:00:00').getTime();
+
 // variables for time units
 var years, days, hours, minutes, seconds, bar_width;
  
